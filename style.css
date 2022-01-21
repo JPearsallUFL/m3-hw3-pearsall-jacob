@@ -1,0 +1,92 @@
+body {
+    font-family: cursive;
+    background-color: antiquewhite;
+}
+
+.navbar-top {
+    overflow: hidden;
+    background-color:rgb(18, 24, 71);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-top a {
+    float: left;
+    display: block;
+    color: antiquewhite;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar-top a:hover {
+    background: rgb(55, 65, 87);
+    color: rgb(219, 185, 35);
+}
+
+main {
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+main h1 {
+    font-size:x-large;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+    text-align: left;
+}
+
+.column-r {
+    flex: 50%;
+    text-align: right;
+    padding-right: 15px;
+}
+
+img {
+    display: block;
+    padding: 30px;
+    width: 100%;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbar-bottom {
+    overflow: hidden;
+    background-color:rgb(18, 24, 71);
+    color: antiquewhite;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 15px 15px;
+}
+
+.navbar-bottom a {
+    float: right;
+    display: block;
+    color: antiquewhite;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+.navbar-bottom a:hover {
+    background: rgb(55, 65, 87);
+    color: rgb(219, 185, 35);
+}
+
+h6 {
+    color: antiquewhite;
+}
